@@ -27,7 +27,7 @@ namespace MVCCrud.Controllers
             UserManager = userManager;
             SignInManager = signInManager;
         }
-
+        //-------
         public ApplicationSignInManager SignInManager
         {
             get
