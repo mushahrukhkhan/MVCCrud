@@ -28,7 +28,7 @@ namespace MVCCrud.Controllers
                 inf.Contact = studentInfoModel.Contact;
                 inf.CourseId = studentInfoModel.CourseId;
                 inf.Code = studentInfoModel.Code;
-                inf.IsActive = true;
+                inf.IsActive = true; ; ;
                 inf.CreatedDate = DateTime.Now;
                 inf.Id = studentInfoModel.Id;
                 entity.Entry(inf).State = studentInfoModel.Id == 0 ? EntityState.Added : EntityState.Modified;
